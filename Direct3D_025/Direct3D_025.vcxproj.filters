@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{363a7c58-b58a-4a20-b1d7-bdfe8d16d07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a75ff49d-ed99-4035-ad9d-d5e43b0b8914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseObject">
+      <UniqueIdentifier>{41599c7b-b182-4887-8ba8-dce59ccf7f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera">
+      <UniqueIdentifier>{cb812bae-2ad0-4403-baf2-e0f55cb30bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Character">
+      <UniqueIdentifier>{7396b64c-f78b-4df4-a4f4-634131f0439f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Map">
+      <UniqueIdentifier>{23bc2b54-5123-4281-a337-b0faf6b68eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Enemy">
+      <UniqueIdentifier>{882cfa0a-7847-4ce6-a5e5-6cd3033e6f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\UI">
+      <UniqueIdentifier>{56b0ad82-22a6-47bc-843b-183e092ef85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Effect">
+      <UniqueIdentifier>{e488ce4f-4d32-4841-a37a-f271dd32f7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Boss">
+      <UniqueIdentifier>{0fce69ec-14c2-4e1d-bdb1-b01dc0348e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tera\Utility">
+      <UniqueIdentifier>{02114441-9a65-481a-ab9e-f99b4bf46f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Common">
+      <UniqueIdentifier>{4df8fbb7-444a-4298-bd48-08c3880c617b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cLogMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cDXFontManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cGizmoManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Texture.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_ShaderFX.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Static.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Direction.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Point.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XStaticMesh.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseObject.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSetBoundObject.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierachy.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Skinned.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XSkinnedMesh.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedAnimation.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cPartcleEmitter.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleQuad.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticleEmitter.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_00.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_01.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_02.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Mgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneChangeEffect.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneChangeEffectUpDown.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuad.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrailRender.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_main.h">
+      <Filter>Tera</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>Tera\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundSphere.h">
+      <Filter>Managers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshMap.h">
+      <Filter>Tera\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Tera\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>Tera\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerUI.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar_Boss.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar_mMonster.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar_Monster.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar_sMonster.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cStartScene.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>Tera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerSkillEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cDecalEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss.h">
+      <Filter>Tera\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cTickFunc.h">
+      <Filter>Tera\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>Tera\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTestVideo.h">
+      <Filter>Tera</Filter>
+    </ClInclude>
+    <ClInclude Include="cVideo.h">
+      <Filter>Tera\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cLocationEffect.h">
+      <Filter>Tera\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cAudioFile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingletonBase.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cLogMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cDXFontManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cGizmoManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Texture.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_ShaderFX.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Static.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Direction.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Point.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XStaticMesh.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseObject.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSetBoundObject.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneHierachy.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Skinned.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XSkinnedMesh.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedAnimation.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cPartcleEmitter.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleQuad.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticleEmitter.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_00.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_01.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_02.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Mgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneChangeEffect.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneChangeEffectUpDown.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuad.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrailRender.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_main.cpp">
+      <Filter>Tera</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>Tera\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundSphere.cpp">
+      <Filter>Managers\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshMap.cpp">
+      <Filter>Tera\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Tera\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>Tera\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerUI.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar_Boss.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar_mMonster.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar_Monster.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar_sMonster.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cStartScene.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>Tera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerSkillEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cDecalEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss.cpp">
+      <Filter>Tera\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cTickFunc.cpp">
+      <Filter>Tera\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil.cpp">
+      <Filter>Tera\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTestVideo.cpp">
+      <Filter>Tera</Filter>
+    </ClCompile>
+    <ClCompile Include="cVideo.cpp">
+      <Filter>Tera\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cLocationEffect.cpp">
+      <Filter>Tera\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cAudioFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

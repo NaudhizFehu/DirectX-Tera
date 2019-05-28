@@ -1,0 +1,18 @@
+﻿  cScene_main.cpp
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cprogressbar_monster.h(44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cprogressbar_monster.h(45): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cprogressbar_monster.h(47): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cprogressbar_monster.h(48): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(141): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(147): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(148): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(149): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(150): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(151): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(152): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(174): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(175): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(214): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\sga\팀포폴프레임워크\sga_directxteam\sgadirectx_tera\direct3d_025\cscene_main.cpp(400): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Direct3D_025.vcxproj -> D:\SGA\팀포폴프레임워크\SGA_DirectxTeam\sgaDirectx_TERA\Debug\Direct3D_TERA.exe
+  Direct3D_025.vcxproj -> D:\SGA\팀포폴프레임워크\SGA_DirectxTeam\sgaDirectx_TERA\Debug\Direct3D_TERA.pdb (Full PDB)
